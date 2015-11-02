@@ -656,7 +656,13 @@ public class ClientMessage {
      * cliapp048 - Do you want to use Applicant details as Notifiable Person details?
      */
     public static final String APPLICATION_APPLICANT_DETAILS = APPLICATION + "048";
- 
+    
+     /**
+     * cliapp049 - Select document to attach digital copy.
+     */
+    public static final String APPLICATION_SELECT_DIAGRAM_TO_ATTACH_TO = APPLICATION + "049";
+  
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}

@@ -828,6 +828,11 @@ public class ClientMessage {
      * clibaunit026 - Enter lease rejection reason
      */
     public static final String BAUNIT_LEASE_REJECTION_REASON_TITLE = BAUNIT + "026";
+    
+     /**
+     * clibaunit027 - There can be only one primary rrr
+     */
+    public static final String BAUNIT_ONLY_ONE_PRIMARY = BAUNIT + "027";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1182,11 +1187,11 @@ public class ClientMessage {
      */
     public static final String ADMIN_FLUSH_CACHE = ADMIN + "036";
      /**
-     * cliadmin037 - Test v1604a
+     * cliadmin037 - Test v1604b
      */
     public static final String ADMIN_TEST_VERSION_NUMBER = ADMIN + "037";
     /**
-     * cliadmin037 - Release v1604a
+     * cliadmin037 - Release v1604b
      */
     public static final String ADMIN_PROD_VERSION_NUMBER = ADMIN + "038";
 

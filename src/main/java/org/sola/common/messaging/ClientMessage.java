@@ -451,6 +451,11 @@ public class ClientMessage {
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_PASSWORD = CHECK + "107";
 
+    /**
+     * clichck108 - Lease conditions must be provided.
+     */
+    public static final String CHECK_NOTNULL_LEASE_CONDITIONS = CHECK + "108";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -833,6 +838,13 @@ public class ClientMessage {
      * clibaunit027 - There can be only one primary rrr
      */
     public static final String BAUNIT_ONLY_ONE_PRIMARY = BAUNIT + "027";
+    
+    /**
+     * clibaunit028 - Lease conditions text requires to enter different parameters. \n
+     * Please, go through the text and substitute "[@]" combination with real values.
+     */
+    public static final String BAUNIT_LEASE_CONDITIONS_MISSING_PARAMS = BAUNIT + "028";
+    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}

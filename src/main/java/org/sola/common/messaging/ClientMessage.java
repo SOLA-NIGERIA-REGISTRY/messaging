@@ -979,7 +979,7 @@ public class ClientMessage {
      */
     public static final String SOURCE_NOT_FOUND = SOURCE + "010";
     /**
-     * clisource011 - Pdf file {0} has been generated and saved into archive
+     * clisource011 - {0}  document will be added into digital archive.  \nYou can use the document search screen to find it
      *
      */
     public static final String SOURCE_SYS_REP_GENERATED = SOURCE + "011";
